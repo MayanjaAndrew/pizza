@@ -12,15 +12,18 @@
     margin: auto;
     cursor: pointer;
     z-index: 2;
+    color:#FFFFFF;
 }
 .wrapper{
-    width: 300vw;
+    width: 400vw;
     height: 100%;
     display: flex;
     border-color: black;
     border-width: 3px;
     border-style: solid;
     flex-direction: row;
+    background-color: #000000;
+    transition: all 1.5s ease-in-out;
 }
 .imgContainer{
     width: 100vw;

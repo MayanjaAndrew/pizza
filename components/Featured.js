@@ -9,14 +9,15 @@ const Featured = () => {
         "/images/image-1.jpeg",
         "/images/Autoclave_sterilizers.jpg",
         "/images/containers.jpg",
+        "/images/NTUMMA_APP-05.png"
     ]
 
     const handleArrow=(direction)=>{
         if(direction==="l"){
-            setIndex(index!==0 ? index-1 : 2)
+            setIndex(index!==0 ? index-1 : 3)
         }
         if(direction==="r"){
-            setIndex(index!==2 ? index+1 : 0)
+            setIndex(index!==3 ? index+1 : 0)
         }
     }
     return (
